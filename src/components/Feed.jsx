@@ -1,10 +1,21 @@
 import React from 'react'
 import { Box } from '@mui/material'
-
+import Post from './Post'
 const Feed = () => {
   return (
     <div>
-      <Box bgcolor={'orange'} flex={4} p={2}>Fedd</Box>
+      <Box flex={4} p={2}>
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </Box>
     </div>
   )
 }
